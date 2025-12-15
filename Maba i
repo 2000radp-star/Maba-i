@@ -1,0 +1,10 @@
+# include < iostream>
+using namespace std;
+main()
+{
+int n, d;
+cout << enter two positive integers ;
+cin >> n >> d ;
+if (n % d) 
+cout << n << " is divisible by " << d << endl;
+}
