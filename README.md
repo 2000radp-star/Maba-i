@@ -2,15 +2,16 @@
 using namespace std ;
 main ()
 {
-int n1 , n2 , n3 , n4 ; 
-cout << " enter four integer " : ;
-cin >> n1 >> n2 >> n3 >> n4 ;
-int main = n1 ; 
-if ( n2 < main ) 
-main = n2 ;
-if ( n3 < main ) 
-if ( n4 < main ) 
-main = n4 ;
-cout << " their minimum is " : << main << endl ; 
-returno ;
+int number ; 
+cout << " enter numbers ( enter o to stop ) : " << endl ;
+while ( true ) 
+{ cin >> number ; 
+if  ( number== 0 ) {
+}
+if ( number % 3  ! = 0 ) {
+cout << " result : " << number << " is not a multiple of 3 . " << endl ; 
+}
+}
+cout << " program finished ." << encl ;
+return ; 
 }
