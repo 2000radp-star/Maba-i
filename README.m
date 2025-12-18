@@ -2,10 +2,12 @@
 using namespace std;
 main()
 {
-int n , d ;
-cout << " enter two positive integer " : ;
-cin >> n >> d ;
-if ( n % d ) 
-cout << n << " is divisible by << d << endl ;
+int ave , n1 , n2 , n3 ; { 
+cout << " enter three integers " ; 
+cin >> n1 >> n2 >> n3 ;
+ave = ( n1 + n2 + n3 ) / 3; 
+cout << " the average of three numbers in = " << ave<< endl; 
+returno;
+}
 }
 
